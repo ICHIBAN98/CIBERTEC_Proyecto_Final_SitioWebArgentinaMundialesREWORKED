@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.Contenido {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.157);
+}
+
+body {
+    background-color: azure;
+}
+
+hr {
+    height: 2px; 
+    background-color: gold; 
+    border: none; 
+    margin: 35px 50vh;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.header {
+    position: relative;
+}
+
+.imgHeader {
+    width: 100%;
+    max-width: 3000px;
+    max-height: 150px;
+    border-bottom: 3px gold solid;
+}
+
+.textoHeader {
+    position: absolute;
+    color: #c4a13f;
+    font-size: 70px;
+    font-style: italic;
+    font-family: "Merriweather Sans";
+    top: 11%;
+    left: 37%;
+    padding: 15px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.nav {
+    margin: 14px 450px 15px 500px;
+    border-bottom: 5px solid #c4a13f;
+    background-color: rgba(0, 0, 0, 0.536);
+}
+
+.nav .nav_Barra a {
+    font-size: 23px;
+    font-family: "Quicksand", bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 15px 20px;
+}
+
+.nav_Barra {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_Barra li:hover {
+    background-color: #c4a13f;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.subtitulos {
+    padding: 15px;
+    font-size: 40px;
+    font-family: "Merriweather Sans";
+    font-style: italic;
+    -webkit-text-stroke: 1.2px black;
+    color: gold;
+}
+
+.Caracteristicas {
+    padding-left: 15px;
+    display: flex;
+}
+
+.TextoCambiar {
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.imagenesPequeñas {
+    text-align: center;
+    padding: 8px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.Botones_Trayectoria {
+    text-align: center;
+}
+
+.Botones_Trayectoria button {
+    padding: 10px;
+}
+
+.Botones_Trayectoria button:hover {
+    background-color: gold;
+}
+
+.partidos_Trayectoria {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.tabla_Trayectoria {
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.Equipo_Titular {
+    display: flex;
+    align-items: center;
+}
+
+.jugadores_Equipo {
+    font-size: 25pt;
+    margin-right: 150px;
+    margin-left: 220px;
+}
+
+.slider_Equipo img {
+    border: solid 2px black;
+    width: 400px;
+    height: 600px;
+    margin-right: 180px;
+}
+
+.img_Equipo img {
+    border-radius: 10%;
+    border: solid 2px black;
+    width: 130%;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.Director_Tecnico {
+    padding-left: 15px;
+    display: flex;
+}
+
+.TextoCambiar_DT {
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.PichichiMundial {
+    padding-left: 15px;
+    display: flex;
+}
+
+.TextoCambiar_PM {
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#imagenGrande_PM {
+    width: 360px;
+    height: 470px;
+    margin-bottom: 15px;
+
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.BotonVolver a{
+    color: white;
+    text-decoration: none;
+    border: 3px solid rgba(196, 161, 64, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 50%);
+    font-size: 23px;
+  }
+
+.BotonVolver {
+    text-align: right;
+
+}
